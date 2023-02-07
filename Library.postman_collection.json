@@ -1,3 +1,22 @@
+Automation Scenarios to Test Library API -
+
+Verify if API responses returns Success Codes with Proper Assertions
+Verify if Response Json Schema is displayed as expected
+Create Environment/Global/Collection variables to dynamically switch end points of APIs to test in different stages of QA Life cycle
+Pass response ID of Add Book to Get Book and Delete ID request Parameters for full functional Automation Testing
+Validate the book ID response calculation Logic
+Validate if Get Book API retrieves the correct response with Book Details requested
+Validate if Delete Book API successfully deleted Book
+Implement Try Catch Error Handling Mechanism for every Automation test as Tear Down Script
+If Book Already exists in DB, Implement Smart Strategy to delete the existing Book first before Adding the Book again as Prerequisite Automation Step
+Parse the complete Json response and verify if the values are displayed as expected
+Generate Unique ISBN/ aisle value for every run to make Book Unique using Automation Script
+Import the Book Details from CSV/Json without hard coding for Validating API’s
+Run the APIs with multiple data sets by iterating the data from the CSV as a Data driven testing
+
+
+
+
 {
 	"info": {
 		"_postman_id": "def989ea-2cd9-4df0-b054-ea6b725764d8",
