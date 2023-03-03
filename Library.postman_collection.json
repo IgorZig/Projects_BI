@@ -1,4 +1,4 @@
-/*               Automation Scenarios to Test Library API -
+/*            Automation Scenarios to Test Library API -
 
 Verify if API responses returns Success Codes with Proper Assertions
 Verify if Response Json Schema is displayed as expected
